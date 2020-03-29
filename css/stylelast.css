@@ -25,6 +25,12 @@ li{
   padding: 7px 30px 0 20px;
 
 }
+a {
+text-decoration: none;
+color: black;
+}
+
+
 
 .link{
   background-color: red;
@@ -47,10 +53,9 @@ header .contaner{
   margin: auto;
 }
 
-body .image{
-  text-align: center;
-  margin: 0;
-  padding:0;
+.image ing{
+  display: block;
+  margin: auto;
 }
 
 .top-wrapper{
@@ -77,20 +82,28 @@ body .image{
 
 }
 
-.top-wrapper .container2 p{
+
+
+.top-wrapper .container2 {
+  display: flex;
+}
+
+.top-wrapper .container2 p {
   background-color: red;
-  display: inline-flex;
   margin-left: 20px;
   color: white;
   border-radius: 5px;
-  width: 50px;
-  height: 35px;
   font-size: 10px;
-  text-align: center;
+  width: 50px;
+  height: 40px;
+  padding-top: 4px;
 }
 
 .top-wrapper{
   display: flex;
+}
+.top-wrapper .container3{
+  margin-left: 15px;
 }
 
 .top-wrapper .container4 p{
@@ -99,6 +112,13 @@ body .image{
   margin: 10px 80px 10px 120px;
   padding: 80px 50px;
   border-radius: 20px;
+}
+
+.komikomi::before{
+  content: "\\";
+}
+.komikomi::after{
+  content: "//";
 }
 
 .item-wrapper{
