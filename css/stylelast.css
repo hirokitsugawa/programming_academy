@@ -30,12 +30,16 @@ text-decoration: none;
 color: black;
 }
 
+.otoi{
+  color: white;
+}
 
 
 .link{
   background-color: red;
   color: white;
   border-radius: 10px;
+
 }
 .box2 .image{
   float: left;
@@ -53,7 +57,7 @@ header .contaner{
   margin: auto;
 }
 
-.image ing{
+.image img{
   display: block;
   margin: auto;
 }
