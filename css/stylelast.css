@@ -1,0 +1,153 @@
+body{
+  margin:0;
+}
+
+header{
+  width: 1000px;
+  height: 30px;
+  background-color: blue;
+  margin: auto;
+}
+header .box1{
+  padding-right: 80px;
+  padding-top: 5px;
+}
+
+.box2{
+  width: 1000px;
+  height: 50px;
+  margin: auto;
+}
+
+li{
+  list-style: none;
+  float:left;
+  padding: 7px 30px 0 20px;
+
+}
+
+.link{
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+}
+.box2 .image{
+  float: left;
+}
+
+header .box1 p{
+  margin:0;
+  text-align: right;
+  color: white;
+}
+
+header .contaner{
+  width: 1000px;
+  height: auto;
+  margin: auto;
+}
+
+body .image{
+  text-align: center;
+  margin: 0;
+  padding:0;
+}
+
+.top-wrapper{
+  background-color: blue;
+  width:1000px;
+  text-align: center;
+  margin:auto;
+}
+
+.top-wrapper .container1 p{
+  margin:0;
+  margin-left: 20px;
+  color:white;
+  padding:10px 0;
+}
+
+.top-wrapper .container1 p1{
+  display: inline-block;
+  background-color: white;
+  margin-left:20px;
+  padding: 10px 80px 10px 80px;
+  color:red;
+  border-radius: 10px;
+
+}
+
+.top-wrapper .container2 p{
+  background-color: red;
+  display: inline-flex;
+  margin-left: 20px;
+  color: white;
+  border-radius: 5px;
+  width: 50px;
+  height: 35px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.top-wrapper{
+  display: flex;
+}
+
+.top-wrapper .container4 p{
+  display: inline-block;
+  background-color: gray;
+  margin: 10px 80px 10px 120px;
+  padding: 80px 50px;
+  border-radius: 20px;
+}
+
+.item-wrapper{
+  height:500px;
+  width: 1000px;
+  padding-bottom:80px;
+  margin:auto;
+}
+
+.heading{
+  padding:5px 0 5px 0;
+}
+
+.heading p{
+  text-align: center;
+  color:red;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.heading .image{
+  margin:auto;
+}
+
+.item{
+  float:left;
+  width:33%;
+}
+
+.item-image{
+  width: 280px;
+  height: 280px;
+}
+
+.item-image p{
+  color:red;
+  text-align: right;
+}
+
+.txt-contents{
+  width:80%;
+  display:inline-block;
+  margin:20px;
+  font-size:12px;
+}
+
+footer .container{
+  background-color: blue;
+  height: 30px;
+  color:white;
+  font-size: 10px;
+}
